@@ -51,7 +51,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'todo_python.urls'
+ROOT_URLCONF = 'todo_django.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'todo_python.wsgi.application'
+WSGI_APPLICATION = 'todo_django.wsgi.application'
 
 
 # Database
@@ -78,8 +78,8 @@ WSGI_APPLICATION = 'todo_python.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'todo_python_db',
-        'USER': 'todo_python_user',
+        'NAME': 'todo_django_db',
+        'USER': 'todo_django_user',
         'PASSWORD': 'password'
     }
 }
