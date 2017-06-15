@@ -80,6 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'todo_django_db',
         'USER': 'todo_django_user',
+        'HOST': 'localhost',
         'PASSWORD': 'password'
     }
 }
