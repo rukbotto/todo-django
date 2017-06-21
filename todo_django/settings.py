@@ -25,7 +25,7 @@ SECRET_KEY = '#nqjwdtu-$gh$^a7jdoxw#!n)e9imthb#sr*yv@m=+7!@1(l#!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'todo-django.local']
 
 
 # Application definition
